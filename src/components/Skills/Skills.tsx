@@ -9,13 +9,13 @@ const Skills = () => {
                 <h2 className={style.title}> My Skills</h2>
                 <div className={style.skills}>
                     <Skill tittle ={"React"}
-                           description={"React description"}
+                           description={"React description bla bla bla bla bla bla bla bal"}
                     />
                     <Skill tittle ={"Java Script"}
-                           description={"js description"}
+                           description={"js description bla bla bla bla bla bla bla bal"}
                     />
                     <Skill tittle ={"CSS"}
-                           description={"CSS description "}
+                           description={"CSS description bla bla bla bla bla bla bla bal "}
                     />
                 </div>
 
