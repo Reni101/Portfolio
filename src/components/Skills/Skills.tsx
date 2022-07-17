@@ -8,13 +8,13 @@ const Skills = () => {
             <div className={style.flexSkillContainer}>
                 <h2 className={style.title}> My Skills</h2>
                 <div className={style.skills}>
-                    <Skill tittle ={"React"}
+                    <Skill title={"React"}
                            description={"React description bla bla bla bla bla bla bla bal"}
                     />
-                    <Skill tittle ={"Java Script"}
+                    <Skill title={"Java Script"}
                            description={"js description bla bla bla bla bla bla bla bal"}
                     />
-                    <Skill tittle ={"CSS"}
+                    <Skill title={"CSS"}
                            description={"CSS description bla bla bla bla bla bla bla bal "}
                     />
                 </div>
