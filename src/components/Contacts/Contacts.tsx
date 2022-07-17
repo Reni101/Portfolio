@@ -7,8 +7,13 @@ const Contacts = () => {
             <div className={style.flexContainer}>
                 <h2>Contacts</h2>
                 <div className={style.ContactForm}>
-                    <form action=""> asdasd</form>
+                    <form action="">
+                        <input type="text"/>
+                        <input type="text"/>
+                        <textarea ></textarea>
+                    </form>
                 </div>
+                <button className={style.button}>send</button>
             </div>
         </div>
     );

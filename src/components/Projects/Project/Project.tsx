@@ -10,10 +10,11 @@ type PropsType = {
 const Project = (props: PropsType) => {
     return (
         <div className={style.Project}>
-            <div className={style.ProjectIMG}>IMG
-                <div>
-                    <button className={style.ProjectButton}> details</button>
+            <div className={style.ProjectIMG}>
+                <div className={style.ProjectLinkDiv}>
+                    <a href={"/"} > details</a>
                 </div>
+
             </div>
 
             <div className={style.ProjectDiscription}>
