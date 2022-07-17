@@ -1,1 +1,29 @@
 
+.mainFooterBlock {
+    background-color: #faeb9d;
+    height: 30vh;
+}
+
+.flexContainer {
+    border: 1px solid;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.socialContainer{
+    width: 500px;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-around;
+}
+.box {
+    width: 60px;
+    height: 60px;
+    background-color: #bbb8b8;
+
+}
