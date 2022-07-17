@@ -1,0 +1,23 @@
+.mainBlock {
+    background-color: #a26aad;
+    height: 100vh;
+}
+
+.text {
+    width: 250px;
+    background-color: gray;
+}
+.flexBlock{
+    border: 1px solid;
+    height: 100%;
+    width: 80%;
+    margin:  0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.photo {
+    width: 250px;
+    height: 300px;
+    background-color: gray;
+}
