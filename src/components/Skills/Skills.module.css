@@ -1,6 +1,6 @@
 .MainSkillBlock {
     background-color: #faeb9d;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .flexSkillContainer {

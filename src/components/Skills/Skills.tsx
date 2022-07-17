@@ -17,6 +17,7 @@ const Skills = () => {
                     <Skill title={"CSS"}
                            description={"CSS description bla bla bla bla bla bla bla bal "}
                     />
+
                 </div>
 
             </div>

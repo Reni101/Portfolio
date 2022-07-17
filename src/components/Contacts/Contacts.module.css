@@ -1,0 +1,17 @@
+.mainContactsBox{
+    background-color: #a26aad;
+    height: 100vh;
+}
+.flexContainer{
+    border: 1px solid;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+}
+.ContactForm{
+
+}
