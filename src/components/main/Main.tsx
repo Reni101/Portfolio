@@ -7,11 +7,13 @@ const Main = () => {
             <div className={style.flexBlock}>
 
                 <div className={style.text}>
-                    <span> Hello</span>
-                    <h1> My name is Maxim Dmitriev</h1>
-                    <p> I am Front-end developer </p>
+                    <h1>Hi, I'm a Front-end developer </h1>
+                    <h2> My name is Maxim Dmitriev </h2>
                 </div>
-                <div className={style.photo}></div>
+                <div className={style.rounded}>
+                    <div className={style.photo}></div>
+                </div>
+
             </div>
 
 

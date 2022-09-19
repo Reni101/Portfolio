@@ -4,8 +4,8 @@
 }
 
 .flexContainer {
-    border: 1px solid;
-    height: 100%;
+
+
     width: 80%;
     margin: 0 auto;
     display: flex;
@@ -21,7 +21,6 @@
 }
 
 .Projects {
-    border: 1px solid;
     width: 100%;
     display: flex;
     justify-content: space-around;

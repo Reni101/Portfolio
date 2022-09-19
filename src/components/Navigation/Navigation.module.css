@@ -1,6 +1,21 @@
 .navigation {
-    width: 350px;
-    border: 1px solid;
+    width: 500px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+
+
 }
+.navigation a {
+    color: #252b33;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600 ;
+}
+.navigation  a:focus {
+    color: #f5df4e;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+
+}
+

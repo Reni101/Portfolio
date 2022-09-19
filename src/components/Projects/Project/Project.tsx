@@ -12,7 +12,7 @@ const Project = (props: PropsType) => {
         <div className={style.Project}>
             <div className={style.ProjectIMG}>
                 <div className={style.ProjectLinkDiv}>
-                    <a href={"/"} > details</a>
+                    <a href={"https://reni101.github.io/it-incubator-todolist-ts/"} > details</a>
                 </div>
 
             </div>
