@@ -1,5 +1,5 @@
 .MainSkillBlock {
-    background-color: #faeb9d;
+
     min-height: 100vh;
 }
 
@@ -16,8 +16,12 @@
 
 }
 
-.title {
-    background-color: gray;
+.flexSkillContainer h2 {
+    font-size: 40px !important;
+
+    font-weight: 600 ;
+    line-height: 1.2;
+
 }
 
 .skills {

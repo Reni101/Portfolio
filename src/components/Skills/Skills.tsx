@@ -6,7 +6,7 @@ const Skills = () => {
     return (
         <div className={style.MainSkillBlock}>
             <div className={style.flexSkillContainer}>
-                <h2 className={style.title}> My Skills</h2>
+                <h2 > My Skills</h2>
                 <div className={style.skills}>
                     <Skill title={"React"}
                            description={"React description bla bla bla bla bla bla bla bal"}

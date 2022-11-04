@@ -1,7 +1,7 @@
 .mainBlock {
     height: 100vh;
     background-color: rgba(245, 223, 78, 70%);
-    z-index: 1;
+
 }
 
 .flexBlock {
@@ -16,6 +16,8 @@
 
 .text {
     width: 400px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500 ;
 }
 
 .rounded {

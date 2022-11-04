@@ -1,0 +1,36 @@
+.navigation {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.navigation a {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 0px 0.85em;
+    color: #252b33;
+    position: relative;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase !important;
+}
+
+.navigation a::after {
+    content: "";
+    position: absolute;
+    bottom: 20%;
+    border-radius: 20px;
+    background: #f5df4e;
+    width: calc(100% - 1.7em);
+    height: 3px;
+    transition: transform .3s;
+    transform: scaleX(0);
+}
+
+.navigation a:hover::after{
+    transform: scaleX(1);
+}
+
