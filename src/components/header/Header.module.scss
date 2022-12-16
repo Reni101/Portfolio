@@ -1,19 +1,25 @@
-.navigation {
-    width: 500px;
-    display: flex;
-    justify-content: space-between;
-
-
+.Header {
+    height: 70px;
+    max-width:1320px;
+    width:100%;
+    padding: 0 12px;
+    margin:0 auto;
+    .navigation {
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
 }
+
 
 .navigation a {
     display: flex;
     align-items: center;
     height: 50px;
-    padding: 0px 0.85em;
+    padding: 0 0.85em;
     color: #252b33;
     position: relative;
-    text-decoration: none;
     font-weight: 600;
     text-transform: uppercase !important;
 }
@@ -26,11 +32,10 @@
     background: #f5df4e;
     width: calc(100% - 1.7em);
     height: 3px;
-    transition: transform .3s;
-    transform: scaleX(0);
+    transition: transform .5s;
+    transform: scale(0);
 }
 
 .navigation a:hover::after{
-    transform: scaleX(1);
+    transform: scale(1);
 }
-

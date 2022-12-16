@@ -19,7 +19,7 @@
     width: 50%;
     border: 1px solid;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .box {
     width: 60px;

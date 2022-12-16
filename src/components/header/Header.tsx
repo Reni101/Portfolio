@@ -1,11 +1,16 @@
 import React from 'react';
-import style from './Header.module.css'
-import Navigation from "../navigation/Navigation";
+import style from './Header.module.scss'
+
 
 const Header = () => {
     return (
         <div className={style.Header}>
-            <Navigation/>
+            <div className={style.navigation}>
+                <a href="/"> Home </a>
+                <a href="/"> Skills </a>
+                <a href="/"> Projects </a>
+                <a href="/"> Contact information</a>
+            </div>
         </div>
     );
 };

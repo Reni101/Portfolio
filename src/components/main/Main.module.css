@@ -1,23 +1,54 @@
 .mainBlock {
     height: 100vh;
+    width: 100%;
     background-color: rgba(245, 223, 78, 70%);
-
 }
 
 .flexBlock {
+    max-width: 1320px;
     height: 100%;
-    width: 80%;
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    flex-wrap: wrap;
+    border: 1px solid black;
 }
 
 .text {
     width: 400px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 500 ;
+    font-weight: 500;
+}
+
+.btnWrapper {
+    height: 53px;
+    display: flex;
+    margin-top: 26px;
+
+}
+
+.btnWrapper a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.btnWrapper .btnLeft {
+    color: white;
+    background-color: #252b33;
+}
+
+.btnWrapper .btnRight {
+    color: #252b33;
+    transition: 1s;
+}
+.btnWrapper .btnRight:hover {
+    color: #252b33;
+    border: 1px #252b33 solid;
+    transition: 1s;
 }
 
 .rounded {
@@ -33,4 +64,3 @@
     border-radius: 50%;
     margin: 15px;
 }
-
