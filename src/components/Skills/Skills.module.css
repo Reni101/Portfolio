@@ -1,33 +1,32 @@
-.MainSkillBlock {
-
+.mainBlock {
     min-height: 100vh;
+    padding: 6.5rem 0;
 }
 
-.flexSkillContainer {
-    border: 1px solid;
-    min-height: 100%;
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content:flex-start;
-    align-items: center;
+.container {
+    max-width: 1320px;
+    height: 100%;
+    margin: 0px auto;
+    text-align: center;
+    justify-content: space-around;
 
 
 }
 
-.flexSkillContainer h2 {
+.container h2 {
     font-size: 40px !important;
-
-    font-weight: 600 ;
+    font-weight: 600;
     line-height: 1.2;
+    margin-bottom: 3rem;
 
 }
 
 .skills {
-    border: 1px solid;
     width: 100%;
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px 20px;
 }
