@@ -10,6 +10,7 @@ const Projects = () => {
                 <div className={style.Projects}>
                     <Project title={"Social-Network"} discription={"bla bla bla bla bal"}/>
                     <Project  title={"TodoList"}  discription={"bla bla bla bla bal"}/>
+                    <Project  title={"Cards"}  discription={"bla bla bla bla bal"}/>
 
                 </div>
             </div>
