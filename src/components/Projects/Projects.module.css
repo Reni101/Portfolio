@@ -1,7 +1,6 @@
 .MainProjectsContainer {
     background-color: rgba(248, 249, 250, 1);
     min-height: 100vh;
-
 }
 
 .flexContainer {
@@ -23,7 +22,6 @@
 
 
 .Projects {
-    width: 100%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
