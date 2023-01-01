@@ -14,7 +14,6 @@ function App() {
             <Main/>
             <Skills/>
             <Projects/>
-
             <Contacts/>
             <Footer/>
         </div>

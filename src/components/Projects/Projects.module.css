@@ -1,6 +1,7 @@
 .MainProjectsContainer {
     background-color: rgba(248, 249, 250, 1);
     min-height: 100vh;
+    padding: 6.5rem 0;
 }
 
 .flexContainer {

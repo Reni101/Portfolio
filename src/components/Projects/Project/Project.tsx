@@ -1,9 +1,9 @@
 import React from 'react';
-import style from './Poject.module.css'
+import style from './Pкoject.module.css'
 
 type PropsType = {
     title: string
-    discription:string
+    description:string
 }
 
 
@@ -19,7 +19,7 @@ const Project = (props: PropsType) => {
 
             <div className={style.ProjectDiscription}>
                 <h3 className={style.ProjectTittle}>{props.title}</h3>
-                <p >{props.discription}</p>
+                <p >{props.description}</p>
             </div>
         </div>
     );

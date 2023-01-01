@@ -15,10 +15,9 @@
 
 .container h2 {
     font-size: 40px !important;
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     line-height: 1.2;
-    margin-bottom: 3rem;
-
 }
 
 .skills {

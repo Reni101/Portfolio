@@ -6,11 +6,11 @@ const Projects = () => {
     return (
         <div className={style.MainProjectsContainer}>
             <div className={style.flexContainer}>
-                <h2 >My projects</h2>
+                <h2>My projects</h2>
                 <div className={style.Projects}>
-                    <Project title={"Social-Network"} discription={"bla bla bla bla bal"}/>
-                    <Project  title={"TodoList"}  discription={"bla bla bla bla bal"}/>
-                    <Project  title={"Cards"}  discription={"bla bla bla bla bal"}/>
+                    <Project title={"Social-Network"} description={"bla bla bla bla bal"}/>
+                    <Project title={"TodoList"} description={"bla bla bla bla bal"}/>
+                    <Project title={"Cards"} description={"bla bla bla bla bal"}/>
 
                 </div>
             </div>
