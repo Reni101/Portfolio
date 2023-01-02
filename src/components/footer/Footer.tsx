@@ -12,7 +12,6 @@ const Footer = () => {
                     <div className={style.box}>Twitter</div>
                     <div className={style.box}>Youtube</div>
                 </div>
-
             </div>
         </div>
     );
