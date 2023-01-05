@@ -5,6 +5,7 @@ import videoBg from "../../assets/background-video.mp4"
 
 
 const Main = () => {
+
     return (
         <div className={style.mainBlock}>
             <div className={style.flexBlock}>
@@ -27,8 +28,6 @@ const Main = () => {
                 </div>
                 <video src={videoBg} muted autoPlay loop></video>
             </div>
-
-
 
         </div>
     );

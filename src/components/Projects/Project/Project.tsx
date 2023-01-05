@@ -5,6 +5,7 @@ type PropsType = {
     title: string
     description: string
     style: {backgroundImage:string}
+    link:string
 }
 
 
@@ -12,9 +13,10 @@ const Project = (props: PropsType) => {
     return (
         <div className={style.Project} >
             <div className={style.ProjectIMG} style={props.style}>
-                <div className={style.ProjectLinkDiv}>
-                    <a href={"https://reni101.github.io/it-incubator-todolist-ts/"}> details</a>
-                </div>
+               {/* <div className={style.ProjectLinkDiv}>
+                    <a href={props.link}> details</a>
+                </div>*/}
+                <div className={style.title}>{props.title}</div>
 
             </div>
 
