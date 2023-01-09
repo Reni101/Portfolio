@@ -18,7 +18,7 @@ const Contacts = () => {
                     <input type="text" placeholder={"Your name"}/>
                     <input type="text" placeholder={"Your E-mail"}/>
                     <textarea placeholder={"Type your messages"}></textarea>
-                    <button className={style.button}>Send message-</button>
+                    <button className={style.button}>Send message</button>
                 </form>
 
 
