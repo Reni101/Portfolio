@@ -4,6 +4,7 @@ import style from './Main.module.css'
 import videoBg from "../../assets/background-video.mp4"
 
 
+
 const Main = () => {
 
     return (
@@ -19,7 +20,9 @@ const Main = () => {
                             View My works
                         </a>
 
-                        <a href="" className={style.btnRight}> Contact me </a>
+                        <a href="" className={style.btnRight}>
+                            Contact me
+                        </a>
 
                     </div>
                 </div>

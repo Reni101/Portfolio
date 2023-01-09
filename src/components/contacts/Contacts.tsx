@@ -1,6 +1,11 @@
 import React from 'react';
 import style from './Contacts.module.css'
 import bgIMG from './../../assets/bgContancts.avif'
+import gitHub from '../../assets/contacts/github.svg'
+import eMail from '../../assets/contacts/e-mail.svg'
+import telegram from '../../assets/contacts/telegram.svg'
+import linkedIn from '../../assets/contacts/linkedin.svg'
+
 
 const Contacts = () => {
     return (
@@ -21,10 +26,12 @@ const Contacts = () => {
                     <div className={style.text}>YOU CAN FIND ME HERE:</div>
                     <div className={style.links}>
 
-                        <a href={'/'}>GitHub</a>
-                        <a href={'/'}>E-mail</a>
-                        <a href={'/'}>Telegram</a>
-                        <a href={'/'}>LinkedIn</a>
+                        <a href={'https://github.com/Reni101'}><img src={gitHub} alt="gitHub"/></a>
+                        <a href={'mailto: Renigano@gmail.com'}><img src={eMail} alt="E-mail"/> </a>
+                        <a href={'https://t.me/Reni101/'}><img src={telegram} alt="Telegram"/> </a>
+                        <a href={''}><img src={linkedIn} alt="LinkedIn"/> </a>
+
+
                     </div>
                 </div>
             </div>
