@@ -17,16 +17,18 @@
 }
 
 .text {
-    width: 400px;
+    line-height: 1.3;
+    width: 450px;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
 }
 
 .btnWrapper {
     height: 53px;
     display: flex;
     margin-top: 26px;
-
 }
 
 .btnWrapper a {
@@ -62,8 +64,8 @@
 }
 
 .rounded .photo {
-    width: 350px;
-    height: 350px;
+    width: 450px;
+    height: 450px;
     background-color: #252b33;
     background-position: center;
     border-radius: 50%;
@@ -76,4 +78,5 @@
     width: 100%;
     object-fit: cover;
     z-index: -10;
+    opacity: 0.8;
 }

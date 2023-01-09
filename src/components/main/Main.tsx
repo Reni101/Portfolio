@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './Main.module.css'
 // @ts-ignore
-import videoBg from "../../assets/background-video.mp4"
+import videoBg from "../../assets/background-video3.mp4"
 
 
 const Main = () => {

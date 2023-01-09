@@ -12,12 +12,10 @@ type PropsType = {
 const Project = (props: PropsType) => {
     return (
         <div className={style.Project} >
-            <div className={style.ProjectIMG} style={props.style}>
-               {/* <div className={style.ProjectLinkDiv}>
-                    <a href={props.link}> details</a>
-                </div>*/}
-                <div className={style.title}>{props.title}</div>
-
+            <div className={style.container}>
+                <div className={style.ProjectIMG} style={props.style}>
+                    <div className={style.title}><a href={props.link}> details {props.title}</a></div>
+                </div>
             </div>
 
             <div className={style.ProjectDiscription}>

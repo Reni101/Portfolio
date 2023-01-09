@@ -6,6 +6,9 @@
     text-align: center;
 }
 
+.container {
+    overflow: hidden;
+}
 
 .ProjectIMG {
     position: relative;
@@ -17,6 +20,12 @@
     background-position: center;
     background-size: cover;
     transition: all 0.5s;
+
+
+}
+
+.ProjectIMG:hover {
+    transform: scale(1.1);
 }
 
 .ProjectIMG::before {
@@ -26,21 +35,24 @@
     bottom: 0;
     left: 0;
     right: 0;
-    transition: background-color 1s;
-    opacity: 0.7;
+    transition: all 1s;
+    opacity: 0.8;
 }
 
 .ProjectIMG:hover::before {
     background-color: #000;
-    color: white;
 }
 
 .title {
+    position: relative;
     visibility: hidden;
     font-size: 20px;
-    color: white;
     transition: all 0.5s;
-    opacity: 0.7;
+    z-index: 1;
+}
+
+.title a {
+    color: white;
 }
 
 .ProjectIMG:hover .title {
@@ -48,25 +60,7 @@
 }
 
 
-.ProjectLinkDiv {
-    height: 50px;
-    width: 100px;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.ProjectLinkDiv a {
-    text-decoration: none;
-    color: #a26aad;
-    font-size: 1.5em;
-}
-
 .ProjectDiscription {
-    background-color: #bbb8b8;
-    width: 100%;
-
-
+    width: 400px;
+    min-height: 150px;
 }
