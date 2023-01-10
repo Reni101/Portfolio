@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Pкoject.module.css'
+import style from './Pкoject.module.scss'
 
 type PropsType = {
     title: string

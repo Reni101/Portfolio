@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './Projects.module.css'
-import Project from "./Project/Project";
+import Project from "./project/Project";
 import social from '../../assets/social-network2.jpeg'
 import todoList from '../../assets/to-do-list.jpeg'
 import cards from '../../assets/cards2.jpeg'

@@ -29,7 +29,7 @@ const Contacts = () => {
                         <a href={'https://github.com/Reni101'}><img src={gitHub} alt="gitHub"/></a>
                         <a href={'mailto: Renigano@gmail.com'}><img src={eMail} alt="E-mail"/> </a>
                         <a href={'https://t.me/Reni101/'}><img src={telegram} alt="Telegram"/> </a>
-                        <a href={''}><img src={linkedIn} alt="LinkedIn"/> </a>
+                        <a href={'/'}><img src={linkedIn} alt="LinkedIn"/> </a>
 
 
                     </div>

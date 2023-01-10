@@ -99,7 +99,7 @@
 }
 
 .linksContainer .links {
-    width: 400px;
+    max-width: 400px;
     height: 50px;
     display: flex;
     justify-content: space-around;

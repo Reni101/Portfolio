@@ -1,6 +1,5 @@
 import React from 'react';
-import style from './Skills.module.css'
-import Skill from "./Skill/Skill";
+import style from './Skills.module.scss'
 import html from '../../assets/skills/html.svg'
 import css from '../../assets/skills/css.svg'
 import Scss from '../../assets/skills/Scss.svg'
@@ -12,6 +11,7 @@ import reduxT from '../../assets/skills/reduxToolkit.svg'
 import formik from '../../assets/skills/formik.svg'
 import unitT from '../../assets/skills/unitTest.svg'
 import webS from '../../assets/skills/webSocket.svg'
+import Skill from "./Skill/Skill";
 
 
 const Skills = () => {

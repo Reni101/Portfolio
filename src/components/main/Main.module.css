@@ -5,7 +5,14 @@
     background-color: rgba(245, 223, 78, 0.7);
     margin-top: 70px;
 }
-
+.mainBlock video {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -10;
+    opacity: 0.8;
+}
 .flexBlock {
     max-width: 1320px;
     height: 100%;
@@ -72,11 +79,10 @@
     margin: 15px;
 }
 
-.mainBlock video {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    z-index: -10;
-    opacity: 0.8;
+@media (max-width: 500px) {
+    .rounded .photo {
+        max-width: 250px;
+        max-height: 250px;
+    }
 }
+
