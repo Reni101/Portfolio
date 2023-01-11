@@ -1,11 +1,11 @@
-import React from 'react';
+import React, {useState} from 'react';
 import style from './Main.module.css'
 // @ts-ignore
 import videoBg from "../../assets/background-video.mp4"
 
 
-
 const Main = () => {
+
 
     return (
         <div className={style.mainBlock}>
@@ -29,7 +29,7 @@ const Main = () => {
                 <div className={style.rounded}>
                     <div className={style.photo}></div>
                 </div>
-                <video src={videoBg} muted autoPlay loop></video>
+                <video src={videoBg} muted autoPlay loop ></video>
             </div>
 
         </div>

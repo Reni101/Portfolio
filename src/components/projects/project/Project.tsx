@@ -14,7 +14,10 @@ const Project = (props: PropsType) => {
         <div className={style.Project} >
             <div className={style.container}>
                 <div className={style.ProjectIMG} style={props.style}>
-                    <div className={style.title}><a href={props.link}> details {props.title}</a></div>
+                    <div className={style.title}>
+                        <a href={props.link} target="_blank">
+                        details {props.title}
+                        </a></div>
                 </div>
             </div>
 
