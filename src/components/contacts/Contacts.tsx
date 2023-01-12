@@ -16,7 +16,7 @@ const Contacts = () => {
                 <h2>Contacts</h2>
                 <form action="" className={style.ContactForm}>
                     <input type="text" placeholder={"Your name"}/>
-                    <input type="text" placeholder={"Your E-mail"}/>
+                    <input type="email" placeholder={"Your E-mail"}/>
                     <textarea placeholder={"Type your messages"}></textarea>
                     <button className={style.button}>Send message</button>
                 </form>

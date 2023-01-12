@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import './App.css';
 import Main from "./components/main/Main";
 import Skills from "./components/skills/Skills";
@@ -7,13 +7,11 @@ import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import Projects from "./components/projects/Projects";
 
-function App() {
-
-
+const App = () => {
     return (
         <div className="App">
             <Header/>
-            <Main />
+            <Main/>
             <Skills/>
             <Projects/>
             <Contacts/>
