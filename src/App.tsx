@@ -8,6 +8,7 @@ import Footer from "./components/footer/Footer";
 import Projects from "./components/projects/Projects";
 
 const App = () => {
+    
     return (
         <div className="App">
             <Header/>
