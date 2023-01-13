@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import style from './Main.module.css'
 // @ts-ignore
 import videoBg from "../../assets/background-video.mp4"
@@ -22,7 +22,7 @@ const Main = () => {
                         </a>
 
                         <a href="" className={style.btnRight}>
-                            Contact me
+                             download my cv
                         </a>
 
                     </div>

@@ -1,24 +1,39 @@
-import React from 'react';
+import React, {useRef} from 'react';
 import style from './Contacts.module.css'
 import bgIMG from './../../assets/bgContancts.avif'
 import gitHub from '../../assets/contacts/github.svg'
 import eMail from '../../assets/contacts/e-mail.svg'
 import telegram from '../../assets/contacts/telegram.svg'
 import linkedIn from '../../assets/contacts/linkedin.svg'
+import emailjs from '@emailjs/browser';
 
 
 const Contacts = () => {
+    const form = useRef(null);
+
+    const sendEmail = (e: any) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_3tovxmu', 'template_93b641n', form.current!, 'CkTA3Ybm1swCM8ge-')
+            .then((result) => {
+               // console.log(result.text);
+                e.target.reset();
+            }, (error) => {
+               // console.log(error.text);
+            });
+    };
     return (
         <div className={style.mainContactsBox}>
 
             <img src={bgIMG} alt="contacts"/>
             <div className={style.containerContacts}>
                 <h2>Contacts</h2>
-                <form action="" className={style.ContactForm}>
-                    <input type="text" placeholder={"Your name"}/>
-                    <input type="email" placeholder={"Your E-mail"}/>
-                    <textarea placeholder={"Type your messages"}></textarea>
-                    <button className={style.button}>Send message</button>
+                <form className={style.ContactForm} ref={form} onSubmit={sendEmail}>
+                    <input type="text" placeholder={"Your name"} name="user_name"/>
+                    <input type="email" placeholder={"Your E-mail"} name="user_email"/>
+                    <textarea placeholder={"Type your messages"} name="message"></textarea>
+                    <input className={style.button} type="submit" value={"Send message"}/>
+                    {/* <button className={style.button} >Send message</button>*/}
                 </form>
 
 
