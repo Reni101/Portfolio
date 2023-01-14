@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Projects.module.css'
+import style from './Projects.module.scss'
 import Project from "./project/Project";
 import social from '../../assets/social-network2.jpeg'
 import todoList from '../../assets/to-do-list.jpeg'
@@ -16,8 +16,8 @@ const backgroundIMG = (urlIMG: string) => {
 const Projects = () => {
 
     return (
-        <div className={style.MainProjectsContainer}>
-            <div className={style.flexContainer}>
+        <div className={style.mainProjectsContainer}>
+            <div className={style.containerProjects}>
                 <h2>My projects</h2>
                 <div className={style.Projects}>
                     <Project title={"Cards"}

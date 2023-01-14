@@ -12,7 +12,7 @@ type PropsType = {
 const Project = (props: PropsType) => {
     return (
         <div className={style.Project} >
-            <div className={style.container}>
+            <div className={style.containerProject}>
                 <div className={style.ProjectIMG} style={props.style}>
                     <div className={style.title}>
                         <a href={props.link} target="_blank">

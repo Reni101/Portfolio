@@ -1,6 +1,5 @@
 import React from 'react';
 import style from './Skill.module.css'
-
 type PropsType = {
     title: string
     photo: string

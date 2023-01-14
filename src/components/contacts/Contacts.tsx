@@ -1,5 +1,5 @@
 import React, {useRef} from 'react';
-import style from './Contacts.module.css'
+import style from './Contacts.module.scss'
 import bgIMG from './../../assets/bgContancts.avif'
 import gitHub from '../../assets/contacts/github.svg'
 import eMail from '../../assets/contacts/e-mail.svg'
