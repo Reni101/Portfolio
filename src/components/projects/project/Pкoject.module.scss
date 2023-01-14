@@ -9,7 +9,7 @@
   overflow: hidden;
 }
 
-.ProjectIMG {
+.projectIMG {
   position: relative;
   width: 400px;
   height: 250px;
@@ -29,7 +29,7 @@
   }
 }
 
-.ProjectIMG::before {
+.projectIMG::before {
   position: absolute;
   content: "";
   top: 0;
@@ -40,7 +40,7 @@
   opacity: 0.8;
 }
 
-.ProjectIMG:hover::before {
+.projectIMG:hover::before {
   background-color: #000;
 }
 
@@ -56,12 +56,12 @@
   }
 }
 
-.ProjectIMG:hover .title {
+.projectIMG:hover .title {
   visibility: visible;
 }
 
 
-.ProjectDiscription {
+.projectDescription {
   width: 400px;
   min-height: 150px;
 
