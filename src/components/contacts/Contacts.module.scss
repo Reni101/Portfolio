@@ -26,12 +26,17 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  @media (max-width: 600px) {
+    padding-top: 1rem;
+
+  }
 
   h2 {
     font-size: 40px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     line-height: 1.2;
+
   }
 }
 
