@@ -32,7 +32,6 @@
   width: 500px;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
-
   text-transform: uppercase;
 }
 
@@ -82,6 +81,7 @@
 .rounded {
   background-color: white;
   border-radius: 50%;
+  padding: 15px;
 }
 
 .rounded .photo {
@@ -90,7 +90,7 @@
   background-color: #252b33;
   background-position: center;
   border-radius: 50%;
-  margin: 15px;
+
 }
 
 @media (max-width: 819px) {
