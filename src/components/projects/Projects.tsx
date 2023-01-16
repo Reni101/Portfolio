@@ -18,7 +18,7 @@ const Projects = () => {
 
     return (
 
-        <div className={style.mainProjectsContainer}>
+        <div className={style.mainProjectsContainer} id="projects">
             <div className={style.containerProjects}>
                 <Slide direction={"down"} triggerOnce={true}>
                     <h2>My projects</h2>

@@ -19,7 +19,7 @@ import {Slide} from "react-awesome-reveal";
 const Skills = () => {
     return (
 
-        <div className={style.mainBlock}>
+        <div className={style.mainBlock} id='skills'>
 
             <div className={style.container}>
                 <Slide direction={"down"} triggerOnce={true}>

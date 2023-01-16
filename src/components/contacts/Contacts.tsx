@@ -25,21 +25,23 @@ const Contacts = () => {
     };
     return (
 
-        <div className={style.mainContactsBox}>
+        <div className={style.mainContactsBox} id='contacts'>
 
             <img src={bgIMG} alt="contacts"/>
-            <Slide direction={"up"} triggerOnce={true}>
-                <div className={style.containerContacts}>
 
+            <div className={style.containerContacts}>
 
+                <Slide direction={"down"} triggerOnce={true}>
                     <h2>Contacts</h2>
+                </Slide>
+                <Slide cascade={true} direction={"up"} triggerOnce={true} className={style.Slide}>
 
-                    <form className={style.ContactForm} ref={form} onSubmit={sendEmail}>
-                        <input type="text" placeholder={"Your name"} name="user_name"/>
-                        <input type="email" placeholder={"Your E-mail"} name="user_email"/>
-                        <textarea placeholder={"Type your messages"} name="message"></textarea>
-                        <input className={style.button} type="submit" value={"Send message"}/>
-                    </form>
+                        <form className={style.ContactForm} ref={form} onSubmit={sendEmail}>
+                            <input type="text" placeholder={"Your name"} name="user_name"/>
+                            <input type="email" placeholder={"Your E-mail"} name="user_email"/>
+                            <textarea placeholder={"Type your messages"} name="message"></textarea>
+                            <input className={style.button} type="submit" value={"Send message"}/>
+                        </form>
 
 
                     <div className={style.linksContainer}>
@@ -55,9 +57,9 @@ const Contacts = () => {
                         </div>
 
                     </div>
+                </Slide>
+            </div>
 
-                </div>
-            </Slide>
         </div>
 
 

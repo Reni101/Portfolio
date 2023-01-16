@@ -18,6 +18,7 @@
     align-items: center;
     margin: 0 auto;
 
+
 }
 
 @media (max-width: 500px) {
@@ -37,9 +38,10 @@
     position: relative;
     font-weight: 600;
     text-transform: uppercase !important;
-
+    cursor: pointer;
 
 }
+
 
 @media (max-width: 600px) {
     .container a {
@@ -63,3 +65,5 @@
 .container a:hover::after {
     transform: scale(1);
 }
+
+
