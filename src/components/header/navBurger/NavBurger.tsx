@@ -1,16 +1,15 @@
 import React, {useState} from 'react';
 import style from './NavBurger.module.scss'
 import {Link} from "react-scroll";
-import CopyRight from '../../../assets/copyright.svg'
-import menuBurger from '../../../assets/menu-burger.svg'
-import closeMenu from '../../../assets/close.svg'
+import CopyRight from '../../../assets/header/copyright.svg'
+import menuBurger from '../../../assets/header/menu-burger.svg'
+import closeMenu from '../../../assets/header/close.svg'
 
 
 export const NavBurger = () => {
 
     let [isOpen, setIsOpen] = useState<boolean>(false)
     const editMenuHandler = () => {
-        console.log(!isOpen)
         setIsOpen(!isOpen)
     }
     return (

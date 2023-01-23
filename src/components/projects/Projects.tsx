@@ -1,9 +1,9 @@
 import React from 'react';
 import style from './Projects.module.scss'
 import Project from "./project/Project";
-import social from '../../assets/social-network2.jpeg'
-import todoList from '../../assets/to-do-list.jpeg'
-import cards from '../../assets/cards2.jpeg'
+import social from '../../assets/projects/social-network2.jpeg'
+import todoList from '../../assets/projects/to-do-list.jpeg'
+import cards from '../../assets/projects/cards2.jpeg'
 import {Slide} from "react-awesome-reveal";
 
 
