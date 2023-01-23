@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import style from './NavBurger.module.scss'
 import {Link} from "react-scroll";
-import CopyRight from '../../../assets/header/copyright.svg'
+import PortfolioSVG from '../../../assets/header/portfolio.svg'
 import menuBurger from '../../../assets/header/menu-burger.svg'
 import closeMenu from '../../../assets/header/close.svg'
 
@@ -48,7 +48,7 @@ export const NavBurger = () => {
             </div>
 
 
-            <img src={CopyRight} alt="" className={style.copyright}/>
+            <a href="/"> <img src={PortfolioSVG} alt="" className={style.portfolioSVG}/></a>
             <div className={style.btn} onClick={editMenuHandler}>
 
                 <img src={isOpen ? closeMenu : menuBurger} alt=""/>
