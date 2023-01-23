@@ -1,0 +1,41 @@
+.container {
+  height: 100%;
+  max-width: 1320px;
+  padding: 0px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+
+  @media (max-width: 500px) {
+    display: none;
+  }
+}
+
+.container a {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding: 0 0.85em;
+  color: #252b33;
+  position: relative;
+  font-weight: 600;
+  text-transform: uppercase !important;
+  cursor: pointer;
+}
+
+.container a::after {
+  content: "";
+  position: absolute;
+  bottom: 20%;
+  border-radius: 20px;
+  background: #f5df4e;
+  width: calc(100% - 1.7em);
+  height: 3px;
+  transition: transform .5s;
+  transform: scale(0);
+}
+
+.container a:hover::after {
+  transform: scale(1);
+}

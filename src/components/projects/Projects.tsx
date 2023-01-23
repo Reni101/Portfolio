@@ -4,7 +4,7 @@ import Project from "./project/Project";
 import social from '../../assets/social-network2.jpeg'
 import todoList from '../../assets/to-do-list.jpeg'
 import cards from '../../assets/cards2.jpeg'
-import {Bounce, Slide} from "react-awesome-reveal";
+import {Slide} from "react-awesome-reveal";
 
 
 const backgroundIMG = (urlIMG: string) => {

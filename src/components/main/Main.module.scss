@@ -7,6 +7,7 @@
   width: 100%;
   background: $bgColor;
   margin-top: 70px;
+
 }
 
 .mainBlock video {
@@ -101,7 +102,7 @@
   }
 }
 
-@media (max-width: 516px) {
+@media (max-width: 500px) {
   .text {
     width: 90%;
 
