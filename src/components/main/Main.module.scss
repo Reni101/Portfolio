@@ -3,11 +3,10 @@
 
 .mainBlock {
   position: relative;
-  height: 100vh ;
+  height: calc(100vh - 70px);
   width: 100%;
   background: $bgColor;
   margin-top: 70px;
-
 }
 
 .mainBlock video {
@@ -25,7 +24,6 @@
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
-
 }
 
 .text {
@@ -103,6 +101,7 @@
 }
 
 @media (max-width: 500px) {
+
   .text {
     width: 90%;
 
@@ -113,8 +112,8 @@
   }
 
   .rounded .photo {
-    max-width: 250px;
-    max-height: 250px;
+    max-width: 300px;
+    max-height: 300px;
   }
 
 }

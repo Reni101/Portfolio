@@ -36,12 +36,12 @@ const Contacts = () => {
                 </Slide>
                 <Slide cascade={true} direction={"up"} triggerOnce={true} className={style.Slide}>
 
-                        <form className={style.ContactForm} ref={form} onSubmit={sendEmail}>
-                            <input type="text" placeholder={"Your name"} name="user_name"/>
-                            <input type="email" placeholder={"Your E-mail"} name="user_email"/>
-                            <textarea placeholder={"Type your messages"} name="message"></textarea>
-                            <input className={style.button} type="submit" value={"Send message"}/>
-                        </form>
+                    <form className={style.ContactForm} ref={form} onSubmit={sendEmail}>
+                        <input type="text" placeholder={"Your name"} name="user_name"/>
+                        <input type="email" placeholder={"Your E-mail"} name="user_email"/>
+                        <textarea placeholder={"Type your messages"} name="message"></textarea>
+                        <input className={style.button} type="submit" value={"Send message"}/>
+                    </form>
 
 
                     <div className={style.linksContainer}>
@@ -51,7 +51,8 @@ const Contacts = () => {
                             <a href={'https://github.com/Reni101'} target="_blank"><img src={gitHub} alt="gitHub"/></a>
                             <a href={'mailto: Renigano@gmail.com'} target="_blank"><img src={eMail} alt="E-mail"/> </a>
                             <a href={'https://t.me/Reni101/'} target="_blank"><img src={telegram} alt="Telegram"/> </a>
-                            <a href={'/'} target="_blank"><img src={linkedIn} alt="LinkedIn"/> </a>
+                            <a href={'https://www.linkedin.com/in/%D0%BC%D0%B0%D0%BA%D1%81%D0%B8%D0%BC-%D0%B4%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B5%D0%B2-033001265/'}
+                               target="_blank"><img src={linkedIn} alt="LinkedIn"/> </a>
 
 
                         </div>

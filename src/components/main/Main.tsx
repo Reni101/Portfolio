@@ -5,7 +5,8 @@ import videoBg from "../../assets/background-video.mp4"
 import {Zoom} from "react-awesome-reveal";
 import ReactTypingEffect from 'react-typing-effect';
 import {Link} from "react-scroll";
-
+// @ts-ignore
+import CV from '../../assets/CV.pdf'
 
 const Main = () => {
     useEffect(() => {
@@ -36,8 +37,8 @@ const Main = () => {
                             Vie my projects
                         </Link>
 
-                        <a href="/" className={style.btnRight}>
-                            download my cv
+                        <a href={CV} target="_blank" className={style.btnRight}>
+                            my cv
                         </a>
 
                     </div>

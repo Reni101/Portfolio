@@ -48,7 +48,7 @@ export const NavBurger = () => {
             </div>
 
 
-            <a href="/"> <img src={PortfolioSVG} alt="" className={style.portfolioSVG}/></a>
+            <a href="https://reni101.github.io/Portfolio/"> <img src={PortfolioSVG} alt="" className={style.portfolioSVG}/></a>
             <div className={style.btn} onClick={editMenuHandler}>
 
                 <img src={isOpen ? closeMenu : menuBurger} alt=""/>
