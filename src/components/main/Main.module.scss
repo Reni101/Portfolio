@@ -82,38 +82,24 @@
   background-color: white;
   border-radius: 50%;
   padding: 15px;
+
+  @media screen and (max-width: 767px) {
+    margin: 20px;
+  }
 }
 
 .rounded .photo {
-  width: 450px;
-  height: 450px;
-  background-color: #252b33;
+  max-width: 450px;
+  width: 100%;
   background-position: center;
   border-radius: 50%;
-
-}
-
-@media (max-width: 819px) {
-  .rounded .photo {
-    max-width: 350px;
-    max-height: 350px;
-  }
 }
 
 @media (max-width: 500px) {
-
   .text {
     width: 90%;
-
   }
-
   .text h1, .text h2 {
     font-size: 1.5rem;
   }
-
-  .rounded .photo {
-    max-width: 300px;
-    max-height: 300px;
-  }
-
 }

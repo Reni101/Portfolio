@@ -5,8 +5,9 @@ import videoBg from "../../assets/background-video.mp4"
 import {Zoom} from "react-awesome-reveal";
 import ReactTypingEffect from 'react-typing-effect';
 import {Link} from "react-scroll";
+import photo from "../../assets/photo1.jpg"
 // @ts-ignore
-import CV from '../../assets/CV.pdf'
+import CV from '../../assets/Maxim_CV.pdf'
 
 const Main = () => {
     useEffect(() => {
@@ -45,7 +46,7 @@ const Main = () => {
                 </div>
                 <Zoom duration={1500} triggerOnce={true}>
                     <div className={style.rounded}>
-                        <div className={style.photo}></div>
+                        <img className={style.photo} src={photo} alt="avatar"/>
                     </div>
                 </Zoom>
                 <video src={videoBg} muted autoPlay loop></video>
