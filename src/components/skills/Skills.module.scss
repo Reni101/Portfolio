@@ -1,0 +1,36 @@
+@import "../../common/styles/mixins";
+
+.mainBlock {
+  min-height: 100vh;
+  padding-top: 6.5rem;
+  @media (max-width: 600px) {
+    padding-top: 3rem;
+
+  }
+}
+
+.container {
+  @include containerMixins;
+
+  h2 {
+    font-size: 40px !important;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+}
+
+.skills {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+
+  @media (max-width: 400px) {
+    gap: 5px;
+  }
+}
